@@ -9,14 +9,14 @@ class Header extends Component {
 
         this.toggleNav = this.toggleNav.bind(this);
         this.state = {
-          isNavOpen: false
+            isNavOpen: false
         };
     }
 
     toggleNav() {
         this.setState({
             isNavOpen: !this.state.isNavOpen
-        });
+        });                           
     }
 
     render() {
