@@ -1,5 +1,5 @@
 import { createStore, combineReducers } from 'redux';
-import { Campsites } from './campsties';
+import { Campsites } from './campsites';
 import { Comments } from './comments';
 import { Partners } from './partners';
 import { Promotions } from './promotions';
